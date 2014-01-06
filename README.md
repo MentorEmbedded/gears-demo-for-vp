@@ -6,13 +6,13 @@ This is a version of the TinyGL library and Gears example modified to run on a V
 Building Requirements
 =========================
 
-You will need the following in your PATH:
+You will need the following in your PATH environment variable:
 
 - An ARM EABI toolchain. The Sourcery CodeBench ARM EABI toolchain will work fine.
 
 - An installation of Vista.
 
-Building Software-Only Unaccelerated vs GPU Accelerated Implementations
+GPU Related Environment Variables
 =========================
 
 By default, invoking make will build a software-only unaccelerated
