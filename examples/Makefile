@@ -25,7 +25,7 @@ CFLAGS      += -DGPU
 DIRS:=tinygl
 
 # build rules
-all: cube.o gears.o mech.o 
+all: cube.o gears.o mech.o gearsdrawmath.o
 
 clean:
 	$(RM) -f $(OBJS) *~

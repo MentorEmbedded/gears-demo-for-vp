@@ -50,7 +50,7 @@ all:
 include $(wildcard *.d)
  
 gears.axf: $(OBJS) link-arm-eabi.ld
-	$(ARMGNU)-gcc $(OBJS) examples/gears.o $(EXTRALIBS) -Tlink-arm-eabi.ld -o $@
+	$(ARMGNU)-gcc $(OBJS) examples/gears.o examples/gearsdrawmath.o $(EXTRALIBS) -Tlink-arm-eabi.ld -o $@
 
 mech.axf: $(OBJS) link-arm-eabi.ld
 	$(ARMGNU)-gcc $(OBJS) examples/mech.o $(EXTRALIBS) -Tlink-arm-eabi.ld -o $@

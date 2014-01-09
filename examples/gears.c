@@ -16,6 +16,7 @@
 #include <GL/gl.h> 
 #include "ui.h"
 #include "glu.h"
+#include "gearsdrawmath.h"
 #ifndef M_PI
 #  define M_PI 3.14159265
 #endif
@@ -166,19 +167,19 @@ void draw( void )
 
    glPushMatrix();
    glTranslatef( -3.0, -2.0, 0.0 );
-   glRotatef( angle, 0.0, 0.0, 1.0 );
+   glRotatef( gearsDrawMathIdentity(angle), 0.0, 0.0, 1.0 );
    glCallList(gear1);
    glPopMatrix();
 
    glPushMatrix();
    glTranslatef( 3.1, -2.0, 0.0 );
-   glRotatef( -2.0*angle-9.0, 0.0, 0.0, 1.0 );
+   glRotatef( gearsDrawMathNine(angle), 0.0, 0.0, 1.0 );
    glCallList(gear2);
    glPopMatrix();
 
    glPushMatrix();
    glTranslatef( -3.1, 4.2, 0.0 );
-   glRotatef( -2.0*angle-25.0, 0.0, 0.0, 1.0 );
+   glRotatef( gearsDrawMathTwentyFive(angle), 0.0, 0.0, 1.0 );
    glCallList(gear3);
    glPopMatrix();
 
