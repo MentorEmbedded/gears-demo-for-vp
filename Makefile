@@ -34,6 +34,10 @@ ifeq (${HWZERO}, 1)
 CFLAGS += -DHWZERO
 endif
 
+ifeq (${TEST}, 1)
+CFLAGS += -DTEST
+endif
+
 LIBGCC=${shell $(ARMGNU)-gcc ${CFLAGS} -print-libgcc-file-name}
 LIBC=${shell $(ARMGNU)-gcc ${CFLAGS} -print-file-name=libc.a}
 LIBM=${shell $(ARMGNU)-gcc ${CFLAGS} -print-file-name=libm.a}
