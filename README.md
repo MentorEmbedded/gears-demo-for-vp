@@ -1,5 +1,3 @@
-Testing
-
 tinygl-for-vp
 =============
 
