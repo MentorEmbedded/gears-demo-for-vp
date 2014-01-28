@@ -1,3 +1,6 @@
+
+[![Build Status](https://virtuest-stage.cloudsourcery.com/badge/MentorEmbedded/gears-demo-for-vp/build/status.gif)](https://virtuest-stage.cloudsourcery.com/builds) [![Test Status](https://virtuest-stage.cloudsourcery.com/badge/MentorEmbedded/gears-demo-for-vp/tests/status.gif)](https://virtuest-stage.cloudsourcery.com/builds) 
+
 tinygl-for-vp
 =============
 
