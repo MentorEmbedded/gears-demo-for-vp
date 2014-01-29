@@ -6,7 +6,7 @@ GLfloat gearsDrawMathIdentity(GLfloat angle) {
 
 GLfloat gearsDrawMathNine(GLfloat angle) {
 	GLfloat newAngle;
-	newAngle = -2.0*angle-10.0;
+	newAngle = -2.0*angle-9.0;
 	return (newAngle);
 }
 
