@@ -70,9 +70,9 @@ void kernel_main(uint32_t r0, uint32_t r1, uint32_t atags) {
     
     // emit result
     if (test_result == FAIL)
-      mb_core_message("---unit test gearsDrawMathIdentity failed---");
+      mb_core_message("test_gearsDrawMathIdentity ... FAILED");
     if (test_result == PASS)
-      mb_core_message("---unit test gearsDrawMathIdentity passed---");
+      mb_core_message("test_gearsDrawMathIdentity ... ok");
 
     // ------------------------------------------------------------------------
     // test 2 setup
@@ -100,9 +100,9 @@ void kernel_main(uint32_t r0, uint32_t r1, uint32_t atags) {
     
     // emit result
     if (test_result == FAIL)
-      mb_core_message("---unit test gearsDrawMathNine failed---");
+      mb_core_message("test_gearsDrawMathNine ... FAILED");
     if (test_result == PASS)
-      mb_core_message("---unit test gearsDrawMathNine passed---");
+      mb_core_message("test_gearsDrawMathNine ... ok");
 
     // ------------------------------------------------------------------------
     // test 3 setup
@@ -131,9 +131,9 @@ void kernel_main(uint32_t r0, uint32_t r1, uint32_t atags) {
     
     // emit result
     if (test_result == FAIL)
-      mb_core_message("---unit test gearsDrawMathTwentyFive failed---");
+      mb_core_message("test_gearsDrawMathTwentyFive ... FAILED");
     if (test_result == PASS)
-      mb_core_message("---unit test gearsDrawMathTwentyFive passed---");
+      mb_core_message("test_gearsDrawMathTwentyFive ... ok");
     // ------------------------------------------------------------------------
     
 
