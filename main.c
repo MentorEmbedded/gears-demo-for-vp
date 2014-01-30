@@ -8,7 +8,7 @@
 
 #define UNUSED(x) (void)(x)
  
-static void* mem = (void*) 0x20000000;
+abc_static void* mem = (void*) 0x20000000;
 
 void *vista_malloc(int size)
 {
