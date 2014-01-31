@@ -1,7 +1,4 @@
-[![Build Status](https://virtuest-stage.cloudsourcery.com/badge/MentorEmbedded/gears-demo-for-vp/status.png)](https://virtuest-stage.cloudsourcery.com/builds) 
-
-tinygl-for-vp
-=============
+[![Build Status](https://virtuest-stage.cloudsourcery.com/badge/MentorEmbedded/gears-demo-for-vp/status.png)](https://virtuest-stage.cloudsourcery.com/builds) # tinygl-for-vp
 
 This is a version of the TinyGL library and Gears example modified to run on a Vista virtual prototype simulator.
 
