@@ -22,6 +22,8 @@ void kernel_main(uint32_t r0, uint32_t r1, uint32_t atags) {
     UNUSED(r0);
     UNUSED(r1);
     UNUSED(atags);
+    
+    void arg
 
     // example of semi hosting print message
 #ifdef GPU
