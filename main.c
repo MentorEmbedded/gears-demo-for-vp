@@ -14,6 +14,7 @@ void *vista_malloc(int size)
 {
 	void *ret = mem;
 	mem += size;
+	void foo
 	return ret;
 }
 
