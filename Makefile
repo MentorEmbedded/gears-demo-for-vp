@@ -25,7 +25,7 @@ WARNFLAGS   :=
 ASFLAGS     := -g -mcpu=cortex-a9 $(INCLUDES) $(DEPENDFLAGS) -D__ASSEMBLY__
 CFLAGS      := $(INCLUDES) $(DEPENDFLAGS) $(BASEFLAGS) $(WARNFLAGS)
 CFLAGS      += -std=gnu99
-
+#Edit the FLags
 ifeq (${GPU}, 1)
 CFLAGS += -DGPU
 endif
